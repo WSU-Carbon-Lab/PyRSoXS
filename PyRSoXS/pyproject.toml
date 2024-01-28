@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "PyRSoXS"
+version = "0.1.0"
+description = "Python based data reduction platform for resonant soft x-ray scattering. Includes functionality for tilted rsoxs geometries"
+authors = ["Devin Grabner <Devin.Grabner@wsu.edu> ,HarlanHeilman <Harlan.Heilman@wsu.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.21.2"
+scipy = "^1.7.1"
+matplotlib = "^3.4.3"
+pandas = "^2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
